@@ -15,27 +15,8 @@ export class VideoList extends React.Component {
         return (
             <ul className="col-md-4 list-group">
                 {videoItems}
-                {/* {this.props.videos.length} */}
             </ul>
         );
     }
 
 }
-
-// const VideoList =(props)=>{
-//     const videoItems = props.videos.map((video) => {
-//         return (<VideoListItems
-//             onVideoSelect={props.onVideoSelect}
-//             key={video.etag} 
-//             video={video} />
-//         );
-//     })
-
-//     return (
-//         <ul className="col-md-4 list-group">
-//             {videoItems}
-//             {/* {this.props.videos.length} */}
-//         </ul>
-//     );
-// };
-// export default VideoList;

@@ -1,9 +1,6 @@
 import React from 'react';
 
 export const VideoListItems = ({video, onVideoSelect}) => {
-    // {video} implies const video = props.video;
-    // const onVideoSelect=props.onVideoSelect;
-    console.log(video);
   
     return (
         <li onClick={()=>{onVideoSelect(video)}} className='list-group-item'>
@@ -22,6 +19,5 @@ export const VideoListItems = ({video, onVideoSelect}) => {
     );
 }
 
-// export default VideoListItems;
 
 
