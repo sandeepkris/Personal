@@ -1,29 +1,34 @@
+.container{
+    background-color: black;
+}
+
 .search-bar{
     margin: 10px;
     text-align: center;
-    background-color: grey;
     padding: 18px
 }
 
 .search-bar input{   
      width: 75%;;
-
+     height: 40px;
 }
-
-.video-detail .detail{
+.video-detail{
+    padding-top :5px !important;
+}
+.video-detail .details{
     border-radius: 5px;
     margin-top:10px;
-    border:5px solid #dddddd;
-    padding :10px;
-    background-color: #eeeeee;
-
+    color: #ffffff !important;
 }
 
 .list-group-item{
     cursor: pointer;
+    font-size: 12px;
+    border:5px solid #000000 !important;
     }
 
 .list-group-item:hover{
-background-color: #eeeeee;
+    background-color: #eeeeee;
 }
+
 
